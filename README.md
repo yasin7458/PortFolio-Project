@@ -40,69 +40,47 @@ Once the Drive link is added, visitors can open the video and watch the complete
 
 ### 🧭 Header
 
-<p align="center">
-  <img src="./src/assets/screenshots/header-screenshot.png" width="100%" alt="Header Screenshot">
-</p>
+![Header Screenshot](./portfolio-page/src/assets/screenshots/header-screenshot.png)
 
 ### 🏠 Home
 
-<p align="center">
-  <img src="./src/assets/screenshots/home-screenshot.png" width="100%" alt="Home Screenshot">
-</p>
+![Home Screenshot](./portfolio-page/src/assets/screenshots/home-screenshot.png)
 
 ### 👤 About
 
-<p align="center">
-  <img src="./src/assets/screenshots/about-screenshot.png" width="100%" alt="About Screenshot">
-</p>
+![About Screenshot](./portfolio-page/src/assets/screenshots/about-screenshot.png)
 
 ### 📖 Biography
 
-<p align="center">
-  <img src="./src/assets/screenshots/biography-screenshot.png" width="100%" alt="Biography Screenshot">
-</p>
+![Biography Screenshot](./portfolio-page/src/assets/screenshots/biography-screenshot.png)
 
 ### 💼 Experience
 
-<p align="center">
-  <img src="./src/assets/screenshots/experience-screenshot.png" width="100%" alt="Experience Screenshot">
-</p>
+![Experience Screenshot](./portfolio-page/src/assets/screenshots/experience-screenshot.png)
 
 ### 🛠️ Services
 
-<p align="center">
-  <img src="./src/assets/screenshots/services-screenshot.png" width="100%" alt="Services Screenshot">
-</p>
+![Services Screenshot](./portfolio-page/src/assets/screenshots/services-screenshot.png)
 
 ### 🎨 Portfolio
 
-<p align="center">
-  <img src="./src/assets/screenshots/portfolio-screenshot.png" width="100%" alt="Portfolio Screenshot">
-</p>
+![Portfolio Screenshot](./portfolio-page/src/assets/screenshots/portfolio-screenshot.png)
 
 ### 💬 Client Feedback
 
-<p align="center">
-  <img src="./src/assets/screenshots/client-feedback-screenshot.png" width="100%" alt="Client Feedback Screenshot">
-</p>
+![Client Feedback Screenshot](./portfolio-page/src/assets/screenshots/client-feedback-screenshot.png)
 
 ### 🏆 Awards
 
-<p align="center">
-  <img src="./src/assets/screenshots/awards-screenshot.png" width="100%" alt="Awards Screenshot">
-</p>
+![Awards Screenshot](./portfolio-page/src/assets/screenshots/awards-screenshot.png)
 
 ### 📩 Contact
 
-<p align="center">
-  <img src="./src/assets/screenshots/contact-screenshot.png" width="100%" alt="Contact Screenshot">
-</p>
+![Contact Screenshot](./portfolio-page/src/assets/screenshots/contact-screenshot.png)
 
 ### 🔗 Footer
 
-<p align="center">
-  <img src="./src/assets/screenshots/footer-screenshot.png" width="100%" alt="Footer Screenshot">
-</p>
+![Footer Screenshot](./portfolio-page/src/assets/screenshots/footer-screenshot.png)
 ---
 ## 🌟 Highlights
 
