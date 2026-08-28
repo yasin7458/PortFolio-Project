@@ -36,59 +36,74 @@ The complete website walkthrough video is available on Google Drive.
 Once the Drive link is added, visitors can open the video and watch the complete website walkthrough.
 
 ---
+## 📸 Website Components
 
-### 🖼️ Website Screenshots
+### 🧭 Header
 
-Screenshots of the individual website sections are stored directly inside `src/assets/`.
+<p align="center">
+  <img src="./src/assets/screenshots/header-screenshot.png" width="100%" alt="Header Screenshot">
+</p>
 
-#### 🧭 Header
+### 🏠 Home
 
-![Header Screenshot](./src/assets/header-screenshot.png)
+<p align="center">
+  <img src="./src/assets/screenshots/home-screenshot.png" width="100%" alt="Home Screenshot">
+</p>
 
-#### 🏠 Home
+### 👤 About
 
-![Home Screenshot](./src/assets/home-screenshot.png)
+<p align="center">
+  <img src="./src/assets/screenshots/about-screenshot.png" width="100%" alt="About Screenshot">
+</p>
 
-#### 👤 About
+### 📖 Biography
 
-![About Screenshot](./src/assets/about-screenshot.png)
+<p align="center">
+  <img src="./src/assets/screenshots/biography-screenshot.png" width="100%" alt="Biography Screenshot">
+</p>
 
-#### 📖 Biography
+### 💼 Experience
 
-![Biography Screenshot](./src/assets/biography-screenshot.png)
+<p align="center">
+  <img src="./src/assets/screenshots/experience-screenshot.png" width="100%" alt="Experience Screenshot">
+</p>
 
-#### 💼 Experience
+### 🛠️ Services
 
-![Experience Screenshot](./src/assets/experience-screenshot.png)
+<p align="center">
+  <img src="./src/assets/screenshots/services-screenshot.png" width="100%" alt="Services Screenshot">
+</p>
 
-#### 🛠️ Services
+### 🎨 Portfolio
 
-![Services Screenshot](./src/assets/services-screenshot.png)
+<p align="center">
+  <img src="./src/assets/screenshots/portfolio-screenshot.png" width="100%" alt="Portfolio Screenshot">
+</p>
 
-#### 🎨 Portfolio
+### 💬 Client Feedback
 
-![Portfolio Screenshot](./src/assets/portfolio-screenshot.png)
+<p align="center">
+  <img src="./src/assets/screenshots/client-feedback-screenshot.png" width="100%" alt="Client Feedback Screenshot">
+</p>
 
-#### 💬 Client Feedback
+### 🏆 Awards
 
-![Client Feedback Screenshot](./src/assets/client-feedback-screenshot.png)
+<p align="center">
+  <img src="./src/assets/screenshots/awards-screenshot.png" width="100%" alt="Awards Screenshot">
+</p>
 
-#### 🏆 Awards
+### 📩 Contact
 
-![Awards Screenshot](./src/assets/awards-screenshot.png)
+<p align="center">
+  <img src="./src/assets/screenshots/contact-screenshot.png" width="100%" alt="Contact Screenshot">
+</p>
 
-#### 📩 Contact
+### 🔗 Footer
 
-![Contact Screenshot](./src/assets/contact-screenshot.png)
-
-#### 🔗 Footer
-
-![Footer Screenshot](./src/assets/footer-screenshot.png)
-
-> 💡 **Screenshot setup:** Keep these screenshot files directly inside `src/assets/` using the names shown above. GitHub will automatically render them in this README.
-
+<p align="center">
+  <img src="./src/assets/screenshots/footer-screenshot.png" width="100%" alt="Footer Screenshot">
+</p>
 ---
-
 ## 🌟 Highlights
 
 | ✨ | Feature |
