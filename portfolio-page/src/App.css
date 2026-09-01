@@ -41,6 +41,19 @@
 
 .Home {
     background: #f9f6fc;
+    position: relative;
+    overflow: hidden;
+}
+
+.Home::after {
+    content: "";
+    position: absolute;
+    width: 300px;
+    height: 72px;
+    top: 21px;
+    right: 2%;
+    background: #ddcdf3ce;
+    pointer-events: none;
 }
 
 .hero-image-wrapper {
@@ -49,9 +62,11 @@
     background: linear-gradient(180deg,
             #8c67ba 0%,
             #a47fc7 45%,
-            #c3acd7 75%,
+            #e2d9eb 75%,
             #d8cce5 100%);
     border-radius: 120px 0 110px 0;
+    position: relative;
+    z-index: 1;
 }
 
 .hero-image-wrapper img {
@@ -60,10 +75,21 @@
     object-position: center;
 }
 
+.Home::before {
+    content: "";
+    position: absolute;
+    width: 90px;
+    height: 80px;
+    left: 50%;
+    right: 0;
+    bottom: 20px;
+    background: #cfb2f8ce;
+}
+
 .btn {
     background: #563078;
     color: white;
-    font-Size: 15px;
+    font-size: 15px;
     font-weight: bold;
 }
 
@@ -82,7 +108,46 @@
 
 strong {
     color: #563078;
-    font-Size: 50px;
+    font-size: 50px;
+}
+
+.home-content {
+    animation-name: homeContent;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+}
+
+@keyframes homeContent {
+    from {
+        opacity: 0;
+        transform: translateX(-120px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.hero-image-wrapper {
+    animation-name: image;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+}
+
+@keyframes image{
+
+    from {
+        opacity: 0;
+        transform: translateX(150px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+
 }
 
 /* ======================== */
@@ -265,7 +330,7 @@ strong {
 
 .portfolio-img {
     object-fit: cover;
-    transition:0.5s;
+    transition: 0.5s;
 }
 
 .portfolio-item:hover .portfolio-img {

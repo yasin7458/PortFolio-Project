@@ -8,20 +8,20 @@ function Home() {
                 <div className="row align-items-center">
 
                     <div className="col-lg-6">
-                        <div className="position-relative z-1 ">
+                        <div className="position-relative z-1 home-content">
 
                             <p className="mb-2 text-secondary small P1">
                                 Hello Dreamer
                             </p>
 
-                            <h1 className="mb-3 fw-normal display-5 ">
+                            <h1 className="mb-3 fw-normal display-5">
                                 This is{" "}
                                 <strong className="fw-bold">
                                     FOTOGRAAF
                                 </strong>
                             </h1>
 
-                            <p className="text-secondary  P2">
+                            <p className="text-secondary P2">
                                 I'm a photographer who loves to
                                 capture and explore new places.
                                 Let's capture your special moments
