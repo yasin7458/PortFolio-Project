@@ -123,6 +123,7 @@ strong {
         opacity: 0;
         transform: translateX(-120px);
     }
+
     to {
         opacity: 1;
         transform: translateX(0);
@@ -136,7 +137,7 @@ strong {
     animation-fill-mode: forwards;
 }
 
-@keyframes image{
+@keyframes image {
 
     from {
         opacity: 0;
@@ -735,4 +736,122 @@ strong {
 .back-to-top:hover {
     background: #56309c;
     color: #ffffff;
+}
+
+/* ==============================
+    Responsive Design
+============================== */
+@media (max-width: 767px) {
+    .Home::before,
+    .Home::after{
+        display: none !important;
+    }
+
+    .portfolio-title {
+        font-size: 30px;
+    }
+
+    .portfolio-description {
+        font-size: 15px;
+        line-height: 1.5;
+        padding: 10px 15px !important;
+    }
+
+    .portfolio-description br {
+        display: none;
+    }
+
+    .portfolio-grid {
+        width: 100%;
+        padding: 0 12px;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 170px);
+        gap: 10px;
+    }
+
+    .portfolio-img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .feedback-heading {
+        margin-bottom: 20px;
+    }
+
+    .feedback-heading h2 {
+        position: static;
+        font-size: 30px;
+    }
+
+    .feedback-box {
+        height: auto;
+        min-height: 500px;
+        margin-left: 0;
+        flex-direction: column;
+        border-top-right-radius: 40px;
+        border-bottom-left-radius: 40px;
+        border-bottom-right-radius: 40px;
+    }
+
+    .feedback-content {
+        width: 100%;
+        padding: 45px 20px 25px;
+        order: 2;
+    }
+
+    .feedback-content p {
+        font-size: 15px;
+        line-height: 1.5;
+        margin-top: 10px;
+    }
+
+    .feedback-content h5 {
+        font-size: 18px;
+    }
+
+    .feedback-image {
+        width: 100%;
+        height: 230px;
+        order: 1;
+    }
+
+    .feedback-image img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+
+        border-top-left-radius: 40px;
+        border-bottom-right-radius: 0;
+    }
+
+    .contact-section {
+        padding: 2rem 15px;
+    }
+
+    .contact-box {
+        height: auto;
+    }
+
+    .contact-title {
+        font-size: 30px;
+    }
+
+    .contact-section .form-control {
+        height: 44px;
+    }
+
+    .contact-section textarea.form-control {
+        height: 120px;
+    }
+
+    .contact-image-wrapper {
+        height: 400px;
+    }
+
+    .contact-person {
+        height: 95%;
+        right: 0;
+    }
+
 }
