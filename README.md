@@ -31,7 +31,7 @@ The website is built using reusable React components, Bootstrap for the layout a
 
 The complete website walkthrough video is available on Google Drive.
 
-> 🔗 **Video:** `PASTE_YOUR_GOOGLE_DRIVE_VIDEO_LINK_HERE`
+> 🔗 **Video:** https://drive.google.com/file/d/1Uun_Xd0mp82RjYpteADZoBGqhr_YDGBl/view?ts=6a96d3c3
 
 Once the Drive link is added, visitors can open the video and watch the complete website walkthrough.
 
